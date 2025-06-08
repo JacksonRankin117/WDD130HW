@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  font-weight: bold;
+  color: black;
+  z-index: 2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.left {
+  background-color: white;
+}
+
+.right {
+  background-color: #b3b3b3;
+  position: relative;
+}
+
+.subtitle {
+  font-size: 6em;             
+  font-weight: bold;
+  color: #8B0000;
+  letter-spacing: 0.2em;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+
+.cherry-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,29 @@
+#active {
+    color: black;
+}
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: lightblue;
+}
+
+img {
+    width: 500px;
+    display: block; /* Make the image a block-level element to center it properly */
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}

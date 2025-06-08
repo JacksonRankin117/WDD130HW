@@ -1,0 +1,43 @@
+/* General page styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color:#5ca0d7;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* Header section */
+header h1 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.education-quote {
+    text-align: center;
+}
+
+.list-section {
+    color: black;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    list-style-position: outside;
+    padding-right: 8em;
+}
+
+.quote-section {
+    text-align: center;
+}
+
+h1:hover {
+    color:black;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block; /* Make the image a block-level element to center it properly */
+    margin: 0 auto; /* Center the image */
+}

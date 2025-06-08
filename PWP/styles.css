@@ -1,0 +1,5 @@
+.portrait {
+    max-width: 300px;    /* Restricts the height to actually fit on the screen */
+    height: auto;        /* maintain aspect ratio */
+    border-radius: 8px;  /* optional, makes it look nice */
+}
