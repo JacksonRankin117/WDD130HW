@@ -173,7 +173,7 @@ nav a:hover, nav a:focus {
     grid-column: 1 / 11;
     grid-row: 4 / 9;
     height: 725px;
-    background-color: #0a5b1c;
+    background-color: rgb(113, 116, 103); /* light gray background */
     z-index: 0;
 }
 
