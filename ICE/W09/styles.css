@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: -150px;
   margin: 0;
 }
 
@@ -50,10 +50,24 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #4a6487;
   color: white;
-  padding: 0.7em 0;
   text-align: center;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+.left-column, .middle-column, .right-column {
+  border: 1px solid grey;
+  border-top: none;
+  border-bottom: none;
+  padding: 0.7em 0;
+}
+
+.left-column {
+    border-left: none;
+}
+
+.border-right {
+    border-right: none;
 }
 
 .card-footer .number {
@@ -66,3 +80,4 @@ body {
   margin-top: 0.2em;
   letter-spacing: 1px;
 }
+
