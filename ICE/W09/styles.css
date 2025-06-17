@@ -1,0 +1,68 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 320px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1em;
+  text-align: center;
+}
+
+.timestamp {
+  color: #357EDD;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.3em 0;
+}
+
+.description {
+  font-size: 0.95em;
+  color: #888;
+  line-height: 1.5em;
+}
+
+.card-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #4a6487;
+  color: white;
+  padding: 0.7em 0;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card-footer .number {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-footer .label {
+  font-size: 0.75em;
+  margin-top: 0.2em;
+  letter-spacing: 1px;
+}
