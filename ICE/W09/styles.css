@@ -1,6 +1,6 @@
 body {
   font-family: 'Georgia', serif;
-  background: #2e2e2e;
+  background: rgb(30, 30, 30);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .timestamp {
-  color: #357EDD;
+  color: rgb(69, 91, 135);
   font-size: 0.9em;
   margin-bottom: 0.5em;
 }
@@ -47,7 +47,7 @@ body {
 
 .card-footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: #4a6487;
   color: white;
   padding: 0.7em 0;
